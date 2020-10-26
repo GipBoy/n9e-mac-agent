@@ -2,13 +2,13 @@
 monapi:
   http: 0.0.0.0:8006
   addresses:
-    - 10.11.11.168
+    - 0.0.0.0
 
 transfer:
   http: 0.0.0.0:8008
   rpc: 0.0.0.0:8009
   addresses:
-    - 10.11.11.168
+    - 0.0.0.0
 
 tsdb:
   http: 0.0.0.0:8010
