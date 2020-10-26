@@ -1,0 +1,28 @@
+---
+monapi:
+  http: 0.0.0.0:8006
+  addresses:
+    - 10.11.11.168
+
+transfer:
+  http: 0.0.0.0:8008
+  rpc: 0.0.0.0:8009
+  addresses:
+    - 10.11.11.168
+
+tsdb:
+  http: 0.0.0.0:8010
+  rpc: 0.0.0.0:8011
+
+index:
+  http: 0.0.0.0:8012
+  rpc: 0.0.0.0:8013
+
+judge:
+  http: 0.0.0.0:8014
+  rpc: 0.0.0.0:8015
+
+collector:
+  http: 0.0.0.0:2080
+
+
