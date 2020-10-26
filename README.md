@@ -4,7 +4,7 @@
 
 配置GOPATH 此处忽略
 
-./control build
+./control build collector
 
 最后提取n9e-collector 跟etc 文件即可使用
 使用前需要修改 specify：“” 
