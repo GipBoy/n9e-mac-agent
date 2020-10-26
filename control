@@ -162,17 +162,8 @@ build()
 		#build_one tsdb
 		return
 	fi
-	
-	if [ "x${mod}" = "xdocker" ]; then
-		#build_docker monapi
-		#build_docker transfer
-		#build_docker index
-		#build_docker judge
-		#build_docker collector
-		#build_docker tsdb
-		return
-	fi
 
+	
 	build_one $mod 
 }
 
