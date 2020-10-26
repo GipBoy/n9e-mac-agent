@@ -154,22 +154,22 @@ build()
 
 	mod=$1
 	if [ "x${mod}" = "x" ]; then
-		build_one monapi
-		build_one transfer
-		build_one index
-		build_one judge
+		#build_one monapi
+		#build_one transfer
+		#build_one index
+		#build_one judge
 		build_one collector
-		build_one tsdb
+		#build_one tsdb
 		return
 	fi
 	
 	if [ "x${mod}" = "xdocker" ]; then
-		build_docker monapi
-		build_docker transfer
-		build_docker index
-		build_docker judge
-		build_docker collector
-		build_docker tsdb
+		#build_docker monapi
+		#build_docker transfer
+		#build_docker index
+		#build_docker judge
+		#build_docker collector
+		#build_docker tsdb
 		return
 	fi
 
